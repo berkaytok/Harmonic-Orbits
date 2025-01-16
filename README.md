@@ -53,7 +53,7 @@ s.options.sampleRate = 48000;
 ```supercollider
 s.boot;
 ```
-4. Copy and run the provided SuperCollider code for the synth definition and OSC receiver
+4. Run the provided SuperCollider code for the synth definition and OSC receiver
 
 ### Processing Setup
 1. Open the `.pde` file in Processing
@@ -66,13 +66,11 @@ s.boot;
 - Multiple dots orbit around the center point
 - Each dot has a unique radius and revolution speed
 - When a dot crosses the x or y axis, it sends an OSC message
-- Visual feedback includes trails and glow effects
 
 ### Audio Component (SuperCollider)
 - Receives OSC messages from Processing
 - Maps dot indices to frequencies in a harmonic series
-- Generates sine waves with percussion envelopes
-- Includes reverb for spatial effect
+- Generates sine waves
 - Dynamically adjusts amplitude based on active notes
 
 ## OSC Communication
