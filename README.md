@@ -1,4 +1,4 @@
-# Harmonic Orbital Visualizer
+# Orbital 
 
 An audiovisual installation that combines Processing visuals with SuperCollider sound synthesis, creating a harmonious experience through orbital motion and dynamic sound generation.
 
